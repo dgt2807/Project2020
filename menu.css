@@ -1,0 +1,119 @@
+/*
+ * menu.css v1.0.0
+ * Update: 2020.05.12
+ * Author: developern
+ */
+
+/* menu bar container */
+.menu {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  /* logo */
+   .logo {
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(159, 185, 255);
+  }
+  
+  /* 
+    1. manu bar 전체 스타일 
+    2. list의 bullet(disk) 제거
+   */
+  .menu ul {
+    margin: 0px;
+    height: 70px;
+    background: rgb(102, 89, 91);
+    list-style: none;
+  }
+   /* list 세로 배열  */
+  .menu li {
+    float: left;
+  }
+  
+  /* a tag가 붙은 list의 스타일 */
+  .menu li a {
+    display: block;
+    margin: 0px;
+    padding: 0px 25px;
+    background: rgb(102, 89, 91);
+    color: #cccccc;
+    text-align: center;
+    text-decoration: none;
+    line-height: 70px;
+    font-weight: normal;
+  }
+  
+  /* sub menu container */
+  .menu li ul {
+    display: none; /* mouse hover전 display 금지 */
+    position: absolute;
+    z-index: 200;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    height: auto;
+    width: 200px;
+    background: rgb(180, 86, 86);
+  }
+    
+  /* sub menu style */
+  .menu li li {
+    display: block;
+    width: 200px;
+    background: rgb(248, 246, 246);
+  }
+    
+  .menu li:hover li a {
+    padding-bottom: 15px;
+    background: none;
+  }
+    
+  .menu li ul a {
+    display: block;
+    margin: 0px;
+    height: 50px;
+    text-align: left;
+    font-size: 28px;
+    font-style: normal;
+  }
+  /* main menu에 mouse가 hover 될때 background style */
+  .menu li a:hover, 
+  .menu ul li:hover a {
+    background: rgb(236, 193, 193);
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+    
+  /* sub-main menu에 mouse가 hover 될때 background style */
+  .menu li ul a:hover, 
+  .menu li ul li:hover a {
+    background: rgb(71,71,71);
+    border: 0px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* mouse가 hover될 때 sub-menu display */
+  .menu li:hover ul {
+    display: block;
+  }
+  
+  /* 
+    1. menu-bar를 page상단에 고정
+    2. menu-bar의 위치
+    (상단, 오른쪽, 왼쪽으로 부터 0인 위치)
+  */
+  .fixed-top {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    right: 0;
+    left: 0;
+  }
