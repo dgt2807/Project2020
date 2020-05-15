@@ -23,6 +23,12 @@
     background-color: rgb(84, 197, 250) ;
     text-align: center;
 }
+.article-bg3 {
+    height: 450px;
+    padding: 15px;
+    background-color: rgb(231, 225, 168) ;
+    text-align: center;
+}
 /*메인메뉴*/
 ul{
     width: 100%;
