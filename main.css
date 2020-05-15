@@ -1,6 +1,6 @@
 /*
-* File Name: main.css v0.2.0
-* Update: 2020.04.05
+* File Name: main.css v0.1.0
+* Update: 2020.04.01
 * Author: dgt2807
 */
 /*로고*/
@@ -32,35 +32,5 @@ ul li a{
     font-weight: bold;
     text-decoration: none;
     font-family: 'Hi Melody', cursive;
-}
-/*box model test*/
-.box1{
-    display: inline-block;
-    width: 20%;
-    height: 150px;
-    margin: 10px;
-    padding: 10px;
-    background-color: brown;
-    border: 10px solid black;
-}
-.box2{
-    display: inline-block;
-    width: 20%;
-    height: 150px;
-    margin: 10px;
-    padding: 10px;
-    background-color: brown;
-    border: 10px dotted black;
-    border-radius: 25px;
-}
-.box3{
-    display: inline-block;
-    width: 20%;
-    height: 150px;
-    margin: 10px;
-    padding: 10px;
-    background-color: brown;
-    border: 10px solid black;
-    box-shadow: 10px 10px 5px 5px black;
 }
 
