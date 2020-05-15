@@ -3,6 +3,34 @@
 * Update: 2020.04.01
 * Author: dgt2807
 */
-header{
-    color: red;
+/*로고*/
+.logo{
+    color: rosybrown;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    
 }
+/*메인메뉴*/
+ul{
+    width: 100%;
+    margin: 0;
+    padding: 15px 10px 8px;
+    background: rgb(49, 49, 49);
+    height: 30px;
+    list-style: none;
+    
+}   
+ul li{
+    float: left;
+    margin-right: 10px;
+
+}
+ul li a{
+    color: rgb(255,255,255);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Hi Melody', cursive;
+}
+
