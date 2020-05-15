@@ -1,4 +1,10 @@
 Project2020
+##05월 20일 실습내용
+>main menu fix<br>
+footer copyright
+##05월 02일 실습내용
+>grid 생성<br>
+bg 생성
 ##04월 20일 실습내용
 >테이블 태그 생성
 ##04월 18일 실습내용
