@@ -1,6 +1,6 @@
 /*
-* File Name: main.css v0.4.0
-* Update: 2020.04.20
+* File Name: main.css v0.5.0
+* Update: 2020.05.07
 * Author: dgt2807
 */
 /*로고*/
@@ -99,6 +99,24 @@ tfoot th{
     text-align: right;
     color: aliceblue;
 }
+.grid-container{
+    display:grid;
+    grid: 100px 100px 100px 100px 100px/
+    auto auto auto auto auto auto auto;
+    grid-gap:5px;
+}
+.cell-1{grid-column:1/span 2;}
+.cell-3{grid-column:4/span 3;}
+.cell-4{grid-column:7/span 8;
+    grid-row:1/span 3;}
+.cell-5{grid-row:2/span 2;}
+.cell-6{grid-column:2/span 2;
+    grid-row:2/span 2;}
+.cell-7{grid-column:4/span 3;
+    grid-row:2/span 2;}
+.cell-8{grid-column:1/span 6;}
+div.grid-container > div{background-color:rgb(221, 79, 79);}
 
+}
 
 
