@@ -1,6 +1,6 @@
 /*
-* File Name: main.css v0.7.0
-* Update: 2020.05.07
+* File Name: main.css v0.8.0
+* Update: 2020.05.21
 * Author: dgt2807
 */
 /*로고*/
@@ -59,7 +59,7 @@
   }
   
 /*메인메뉴*/
-ul{
+.menu ul{
     width: 100%;
     margin: 0;
     padding: 15px 10px 8px;
@@ -68,12 +68,12 @@ ul{
     list-style: none;
     
 }   
-ul li{
+.menu ul li{
     float: left;
     margin-right: 10px;
 
 }
-ul li a{
+.menu ul li a{
     color: rgb(255,255,255);
     font-size: 30px;
     font-weight: bold;
@@ -83,13 +83,13 @@ ul li a{
 
 /* article bg*/
 .article-bg1 {
-    height: 400px;
+    height: 600px;
     padding: 15px;
-    background-color: rgb(96, 201, 250) ;
-    text-align: center;
+    background-color: rgb(217, 166, 233) ;
+    text-align:center;
 }
 .article-bg2 {
-    height: 650px;
+    height: 600px;
     padding: 15px;
     background-color: rgb(84, 197, 250) ;
     text-align: center;
@@ -119,13 +119,17 @@ ul li a{
     text-align: center;
 }
 .footer-bg {
-    height: 30px;
+    height: 60px;
     padding: 15px;
     background-color: rgb(164, 195, 226) ;
     text-align: center;
 }
 
-
+/* article 폭*/
+.width-50{
+    width: 50%;
+    margin-left: 25%;
+}
 
 
 /*box model test*/
@@ -230,3 +234,5 @@ tfoot th{
 div.grid-container > div{background-color:rgb(221, 79, 79);}
 
 }
+
+

@@ -1,10 +1,11 @@
 <!--
-* File Name: index.html v0.3.0
-* Update: 2020.04.18
+* File Name: index.html v0.7.0
+* Update: 2020.05.21
 * Author: dgt2807
 -->
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,46 +15,57 @@
     <link rel="stylesheet" href="menu.css">
     <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">
     <style>
-        a:link {  text-decoration: none;}
-        a:visited { color: rgb(50, 49, 51); text-decoration: none;}
-        a:hover { color: white; text-decoration: none;}
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: rgb(50, 49, 51);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
+            text-decoration: none;
+        }
     </style>
 </head>
+
 <body>
     <header class="full-bg">
         <div class="container">
-        <div class="header-title">
-            Sin iL 
-            <p class="header-sub-title">
-              박신일의 홈페이지 입니다.<br>
-              2020년 1학기 실습 내용을 정리했습니다.
-            </p>
+            <div class="header-title">
+                Sin iL
+                <p class="header-sub-title">
+                    박신일의 홈페이지 입니다.<br>
+                    2020년 1학기 실습 내용을 정리했습니다.
+                </p>
+            </div>
+            <!-- Ghost Button -->
+            <div>
+                <a class="ghost" href="">meanin</a>
+                <a class="ghost" href="">gless</a>
+            </div>
         </div>
-    <!-- Ghost Button -->
-        <div>
-          <a class="ghost" href="">meanin</a>
-          <a class="ghost" href="">gless</a>
-        </div>
-      </div>
     </header>
     <nav class="fixed-top menu">
         <ul>
-          <li class="logo"><a href="#">박신일</a></li>
-          <li><a href="#">One Page Site</a>
-            <ul>
-              <li><a href="#box">box model</a></li>
-              <li><a href="#img">image</a></li>
-              <li><a href="#vid">audio-video</a></li>
-              <li><a href="#youtube">Youtubu</a></li>
-              <li><a href="#table">table</a></li>
-              <li><a href="#grid">css-grid</a></li>
-            </ul>
-          </li>
-          <li><a href="# main2.html">메뉴2</a></li>
-          <li><a href="#">메뉴3</a></li>
+            <li class="logo"><a href="#">박신일</a></li>
+            <li><a href="#">One Page Site</a>
+                <ul>
+                    <li><a href="#box">box model</a></li>
+                    <li><a href="#img">image</a></li>
+                    <li><a href="#vid">audio-video</a></li>
+                    <li><a href="#youtube">Youtubu</a></li>
+                    <li><a href="#table">table</a></li>
+                    <li><a href="#grid">css-grid</a></li>
+                </ul>
+            </li>
+            <li><a href="./boot.html">메뉴2</a></li>
+            <li><a href="#">메뉴3</a></li>
         </ul>
-      </nav>
-       <a name="box"></a>
+    </nav>
+    <a name="box"></a>
     <article class="article-bg1">
         <h1>4월 10일 박스모델 연습</h1>
         <section>
@@ -64,65 +76,66 @@
     </article>
     <a name="img"></a>
     <article class="article-bg2">
-            <h1>4월18일 멀티미디어 태그 연습</h1><br>
-            <h2>img tag연습</h2>
-            <section> 
-                <img class="img-size1" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥" >
-                <img class="img-size1 b-radius1" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥" >
-                <img class="img-size1 b-radius2" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥" >
-                <img class="img-size1 b-radius3" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥" >
-                <img class="img-size1 b-radius4" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥" >
-            </section>
-            <section>
-                <img class="img-size2" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥" >
-                <img class="img-size2 b-radius1" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥" >
-                <img class="img-size2 b-radius2" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥" >
-                <img class="img-size2 b-radius3" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥" >
-                <img class="img-size2 b-radius4" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥" >
-            </section>
+        <h1>4월18일 멀티미디어 태그 연습</h1><br>
+        <h2>img tag연습</h2>
+        <section>
+            <img class="img-size1" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥">
+            <img class="img-size1 b-radius1" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥">
+            <img class="img-size1 b-radius2" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥">
+            <img class="img-size1 b-radius3" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥">
+            <img class="img-size1 b-radius4" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥">
+        </section>
+        <section>
+            <img class="img-size2" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥">
+            <img class="img-size2 b-radius1" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥">
+            <img class="img-size2 b-radius2" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥">
+            <img class="img-size2 b-radius3" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥">
+            <img class="img-size2 b-radius4" src="./images/butterfly-2049567_640.jpg" alt="파랑 나비 그리고 나무 밑둥">
+        </section>
     </article>
     <a name="vid"></a>
     <article class="article-bg3">
         <h2>audio, vidoe tag 연습</h2>
-            <section>
-                <audio controls> 
-                    <source src="https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3">
-                    현재 브라우저에서는 오디오 태그를 지원하지 않습니다
-                </audio>
-        
-                <video width="350px" height="250px"  controls>
-                    <source src="./video/Forest - 31450.mp4">
-                    현재 브라우저에서는 비디오 태그를 지원하지 않습니다
-                </video>
-            </section>
+        <section>
+            <audio controls>
+                <source src="https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3">
+                현재 브라우저에서는 오디오 태그를 지원하지 않습니다
+            </audio>
+
+            <video width="350px" height="250px" controls>
+                <source src="./video/Forest - 31450.mp4">
+                현재 브라우저에서는 비디오 태그를 지원하지 않습니다
+            </video>
+        </section>
     </article>
     <a name="youtube"></a>
     <article class="article-bg3">
         <h2>유튜브 영상을 내 홈페이지에 가져오기 연습</h2>
         <section>
-            <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/uIemFWzxk0w?controls=0&amp;start=480" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uIemFWzxk0w?controls=0&amp;start=480"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
             </iframe>
 
         </section>
-    </article> 
+    </article>
     <a name="table"></a>
     <article class="article-bg5">
-                <h1>4월 20일 테이블 연습</h1>
-                <section>
-                <table>
-                    <caption>관심있는 DB분야 </caption>
-                    <thead>
+        <h1>4월 20일 테이블 연습</h1>
+        <section>
+            <table>
+                <caption>관심있는 DB분야 </caption>
+                <thead>
                     <tr>
                         <td><b>분류</b></td>
                         <th>운영</th>
                         <th>솔루션 </th>
-                        <th>응용  </th>
+                        <th>응용 </th>
                         <th>컨설팅</th>
                         <th>보안</th>
                     </tr>
-                    </thead>
-                    <tbody>
+                </thead>
+                <tbody>
                     <tr>
                         <td rowspan="3"><b>회사</b></td>
                         <th><a href=""></a></th>
@@ -145,50 +158,51 @@
                         <th></th>
                         <th><a href="http://www.sinsiway.com/">신시웨이</a></th>
                     </tr>
-                    </tbody>
-                    <tfoot>
-                        <th colspan="6">* : DBA의 업무</th>
-                    </tfoot>
-                </table>
-                </section>
+                </tbody>
+                <tfoot>
+                    <th colspan="6">* : DBA의 업무</th>
+                </tfoot>
+            </table>
+        </section>
     </article>
     <a name="grid"></a>
     <article class="article-bg4">
-                <h1>5월 7일 그리드 연습</h1>
-                <section>
-                    <div class="grid-container">
-                        <div class="cell-1">(1) .cell-1</div>
-                        <div >(2)</div>
-                        <div class="cell-3">(3) .cell-3</div>
-                        <div class="cell-4">(4) .cell-4</div>
-                        <div class="cell-5">(5) .cell-5</div>
-                        <div class="cell-6">(6) .cell-6</div>
-                        <div class="cell-7">(7) .cell-7</div>
-                        <div class="cell-8">(8) .cell-8</div>
-                        <div>(9)</div>
-                        <div>(10)</div>
-                        <div>(11)</div>
-                        <div>(12)</div>
-                        <div>(13)</div>
-                        <div>(14)</div>
-                        <div>(15)</div>
-                        <div>(16)</div>
-                        <div>(17)</div>
-                        <div>(18)</div>
-                        <div>(19)</div>
-                        <div>(20)</div>
-                        <div>(21)</div>
+        <h1>5월 7일 그리드 연습</h1>
+        <section>
+            <div class="grid-container">
+                <div class="cell-1">(1) .cell-1</div>
+                <div>(2)</div>
+                <div class="cell-3">(3) .cell-3</div>
+                <div class="cell-4">(4) .cell-4</div>
+                <div class="cell-5">(5) .cell-5</div>
+                <div class="cell-6">(6) .cell-6</div>
+                <div class="cell-7">(7) .cell-7</div>
+                <div class="cell-8">(8) .cell-8</div>
+                <div>(9)</div>
+                <div>(10)</div>
+                <div>(11)</div>
+                <div>(12)</div>
+                <div>(13)</div>
+                <div>(14)</div>
+                <div>(15)</div>
+                <div>(16)</div>
+                <div>(17)</div>
+                <div>(18)</div>
+                <div>(19)</div>
+                <div>(20)</div>
+                <div>(21)</div>
 
-                    </div>
-                </section>
+            </div>
+        </section>
 
-            </article>
-            <aside class="aside-bg">
-            <h1>EMPTY</h1>
-            </aside>
-            
-            <footer class="footer-bg">
-                  Copyright&copy;2020.dgt2807.All rights reserved. 
-            </footer>
+    </article>
+    <aside class="aside-bg">
+        <h1>EMPTY</h1>
+    </aside>
+
+    <footer class="footer-bg">
+        Copyright&copy;2020.dgt2807.All rights reserved.
+    </footer>
 </body>
+
 </html>
