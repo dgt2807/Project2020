@@ -1,0 +1,43 @@
+<!--
+* File Name: index.html v0.0.0
+* Update: 2020.05.26
+* Author: dgt2807
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dom05</title><!--SPA 그라데이션-->
+    <script>
+        window.onload = function () {
+            var output = '';
+            for (var i = 0; i<256; i++) {
+             output += '<div></div>';
+            }
+            document.body.innerHTML = output;
+            
+            // 문서 객체 선택
+            var ry =document.querySelectorAll('div');//ry 는 객체명
+            for (var i=0; i<ry.length;i++){
+                var y =256-i;
+                //var y =256-k;
+                var k = 2*i;
+                var div = ry[i];
+                div.style.height ='2px';
+                div.style.background ='rgb('+i+','+k+','+y+')';
+            }
+        };
+
+
+    </script>
+
+</head>
+
+<body>
+  
+</body>
+
+</html>

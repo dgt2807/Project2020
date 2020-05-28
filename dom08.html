@@ -1,0 +1,43 @@
+<!--
+* File Name: index.html v0.0.0
+* Update: 2020.05.26
+* Author: dgt2807
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dom08</title>
+    <script>
+        window.onload = function () {
+            //문서 객체 선택
+            var clock = document.getElementById('clock');
+            //문서 객체 및 Date( ) 객체를 이용한 시간 표시. 1초에 한번씩 갱신.(실시간 표시)
+            setInterval(function() {
+                var now = new Date();
+                clock.innerHTML = now.toString();
+            }, 1000 );
+            //버튼 ★   이벤트 리스너 내부에서 this 객체를 이용한 별(★)점수 버튼 만들기. 
+            document.getElementById('button').onclick=function(){
+            this.textContent = this.textContent + '★';
+        };
+        };
+        
+        function buttonClick(){
+            alert('클릭')};
+      
+    </script>
+
+</head>
+
+<body>
+<!-- button에 이벤트 연결 -->    
+ <h1 id="clock"></h1>
+ <button onclick="buttonClick()">버튼클릭</button>
+ <button id="button">버튼 -</button>
+</body>
+
+</html>

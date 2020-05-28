@@ -1,0 +1,40 @@
+<!--
+* File Name: index.html v0.0.0
+* Update: 2020.05.26
+* Author: dgt2807
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dom01</title><!--document.querySelector 실행순서에 따른 객체 생성오류-->
+    <script>
+        window.onload = function () {
+            /*h1 배경 색상 변경*/
+            document.querySelector('h1').style.backgroundColor = 'red';
+            /*h2 글자 색상 변경*/
+            document.querySelector('h2').style.backgroundColor = 'red';
+        };
+
+    </script>
+
+</head>
+
+<body>
+    <h1>Process</h1>
+    <h2>Process</h2>
+    <!-- <script>
+        window.onload = function () {
+            /*h1 배경 색상 변경*/
+            document.querySelector('h1').style.backgroundColor = 'red';
+            /*h2 글자 색상 변경*/
+            document.querySelector('h2').style.backgroundColor = 'red'; 
+        };
+    </script> -->
+</body>
+
+</html>

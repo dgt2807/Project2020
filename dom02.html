@@ -1,0 +1,32 @@
+<!--
+* File Name: index.html v0.0.0
+* Update: 2020.05.26
+* Author: dgt2807
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dom02</title><!--document.getElementById-->
+    <script>
+        window.onload = function () {
+            var header = document.getElementById('header');
+           header.style.color = 'red';
+           header.style.background = 'black';
+           header.innerHTML = '자바스크립트 DOM';
+        };
+
+    </script>
+
+</head>
+
+<body>
+    <h1 id="header">여기 아무 것도 없어도  문장이 삽입됨 </h1>
+
+   
+</body>
+
+</html>

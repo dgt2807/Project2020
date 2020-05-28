@@ -1,0 +1,35 @@
+<!--
+* File Name: index.html v0.0.0
+* Update: 2020.05.26
+* Author: dgt2807
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dom03</title><!--document.querySelectorAll( ) 실습. for문을 이용한 문서 객체의 조작.-->
+    <script>
+        window.onload = function () {
+            var headers = document.querySelectorAll('h1');
+            for (var i = 0; i < headers.length; i++) {
+                var header = headers[i];
+                header.style.color = 'cyan';
+                header.style.background = 'black';
+                header.innerHTML = 'ELement 다중선택';
+            }
+        };
+
+    </script>
+
+</head>
+
+<body>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+</body>
+
+</html>
