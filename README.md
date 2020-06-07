@@ -1,4 +1,12 @@
 # project2020_박신일
+## 06월 02일 실습내용
+>jQuery 기본문법<br>
+문서객체 추가하여 스타일 적용[ attr(),css( )메소드]<br>
+메소드를 이용한 클래스의 추가, 제거, 전환. [ addClass( ), removeClass( ), toggleClass( )]<br>
+스타일 제거 /변경<br>
+이벤트 연결(slide toggle)<br>
+jQuery: infinity scroll <br>
+jQuery plugins: lightbox, masonry,covid-19.
 ## 05월 26일 실습내용
 > DOM<br>
 document.querySelector( )<br> 
@@ -10,7 +18,7 @@ SPA로 rgb(0, 0, 0)~rgb(255, 255, 255)의 그라데이션 구현<br>
 setAttribute( ), getAttribute( )를 이용한 속성의 지정과 속성값 추출 <br>
 문서 객체 및 Date( ) 객체를 이용한 시간 표시, 1초에 한번씩 갱신.(실시간 표시)<br>
 button에 이벤트 연결 <br>
-이벤트 리스너 내부에서 this 객체를 이용한 별(★)점수 버튼 만들기<br>
+이벤트 리스너 내부에서 this 객체를 이용한 별(★)점수 버튼 만들기
 ## 05월 21일 실습내용
 > bootstrap 사용한 boot.html만들기<br>
  (1) allert (2) button (3) collapse (4) form
